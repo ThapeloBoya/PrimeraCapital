@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+Recipe Finder
+The Recipe Finder app allows users to search, view, and save recipes based on ingredients they have on hand. It connects users with a database of recipes, offering an intuitive and efficient way to discover new meals and try different cooking ideas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+1. Search Recipes by Ingredients
+Ingredient-Based Search: Input ingredients you have at home and find recipes that match those ingredients.
+Search Filters: Filter results by cuisine, diet preferences (e.g., vegetarian, gluten-free), and preparation time.
+Recipe Suggestions: Receive recipe suggestions based on the number of ingredients you have.
 
-## Available Scripts
+3. Recipe Details
+Step-by-Step Instructions: View detailed recipe steps to follow for preparation and cooking.
+Nutritional Information: See nutritional information for each recipe, including calories, fat, protein, and carbs.
+Servings & Adjustments: Customize the number of servings and adjust ingredient quantities accordingly.
+Ingredients List: Display a complete list of ingredients with quantities for easy shopping.
 
-In the project directory, you can run:
+5. Favorites and Saved Recipes
+Save Favorite Recipes: Save recipes you love and want to try later.
+Recipe Management: View and manage your saved recipes in one place.
+Shopping List: Generate a shopping list from the ingredients of saved recipes.
 
-### `npm start`
+7. User Interface
+Clean, Intuitive Design: An easy-to-navigate interface that helps you quickly find and explore recipes.
+Recipe Card View: Each recipe is presented as a card with an image, title, brief description, and key details.
+Search History: Keep track of your recent searches for quicker access.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Technologies Used
+Frontend:
+React.js: A JavaScript library for building the user interface.
+Material-UI: For building responsive, modern UI components.
+Axios: For making HTTP requests to fetch recipes and ingredients from the backend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Backend:
+Node.js: A JavaScript runtime for the server-side.
+Express.js: A web framework to build RESTful APIs.
+Recipe API (e.g., Spoonacular): A third-party API that provides access to a large database of recipes and nutritional information.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Database:
+MongoDB: A NoSQL database for storing user data, including saved recipes and favorites.
+Authentication:
+JWT (JSON Web Tokens): For secure login and registration, managing user sessions.
