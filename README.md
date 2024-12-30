@@ -4,7 +4,7 @@ A React app that helps users discover recipes based on ingredients they have at 
 
 ## Demo
 
-You can view the live demo of the app here: [Recipe Finder Demo](https://recipe-finder-app-pink.vercel.app/)
+You can view the live demo of the app here: [Recipe Finder App](https://recipe-finder-app-pink.vercel.app/)
 
 ![Recipe Finder App Demo](public/recipe-finder-demo.png)
 
