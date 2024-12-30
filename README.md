@@ -6,7 +6,7 @@ A React app that helps users discover recipes based on ingredients they have at 
 
 You can view the live demo of the app here (insert your deployed link).
 
-![Recipe Finder App Demo](./recipe-finder-demo.png)
+![Recipe Finder App Demo](public/recipe-finder-demo.png)
 
 ## Features
 
